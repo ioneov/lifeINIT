@@ -12,6 +12,12 @@ plugins:
   - search
   - awesome-pages
 markdown_extensions:
+  - footnotes:
+      BACKLINK_TEXT: "↩"
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+extra_css:
+  - stylesheets/overrides.css
