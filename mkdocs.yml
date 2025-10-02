@@ -2,15 +2,16 @@ site_name: Было и было
 site_url: https://ioneov.github.io/lifeINIT
 theme:
   name: material
+  language: ru
   features:
     - navigation.instant
+    - navigation.sections
+    - navigation.indexes
     - content.code.copy
+plugins:
+  - search
+  - awesome-pages
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-plugins:
-  - search
-  - awesome-pages
-nav:
-  - Стартовая страница: README.md

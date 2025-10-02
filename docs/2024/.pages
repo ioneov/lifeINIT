@@ -1,4 +1,5 @@
-# docs/2024/.pages
-title: 2024
+title: "2024"
 nav:
-  - Обзор: README.md
+  - Октябрь: oktyabr
+  - Ноябрь: noyabr
+  - Декабрь: dekabr
