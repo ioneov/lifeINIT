@@ -9,5 +9,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+plugins:
+  - search
+  - awesome-pages
 nav:
-  - Введение: index.md
+  - Стартовая страница: README.md
