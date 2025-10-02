@@ -1,0 +1,32 @@
+/* Утилитарные классы выравнивания изображений/figure */
+.md-typeset .left { text-align: left; }
+.md-typeset .right { text-align: right; }
+.md-typeset .center { text-align: center; }
+
+/* Собственно выравнивание картинок: перебиваем margin: auto темы */
+.md-typeset img.left,
+.md-typeset figure.left img,
+.md-typeset img.align-left,
+.md-typeset figure.align-left img {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.md-typeset img.right,
+.md-typeset figure.right img,
+.md-typeset img.align-right,
+.md-typeset figure.align-right img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.md-typeset img.center,
+.md-typeset figure.center img,
+.md-typeset img.align-center,
+.md-typeset figure.align-center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
