@@ -1,0 +1,13 @@
+site_name: Было и было
+site_url: https://ioneov.github.io/lifeINIT
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - Введение: index.md
