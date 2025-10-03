@@ -2,6 +2,7 @@ site_name: Было и было
 site_url: https://ioneov.github.io/lifeINIT
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   features:
     - navigation.instant
@@ -11,6 +12,8 @@ theme:
 plugins:
   - search
   - awesome-pages
+  - tags
+  - meta 
 markdown_extensions:
   - footnotes:
       BACKLINK_TEXT: "↩"
